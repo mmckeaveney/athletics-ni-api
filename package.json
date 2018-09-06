@@ -1,0 +1,11 @@
+{
+  "name": "athletics-ni-api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:mmckeaveney/athletics-ni-api.git",
+  "author": "Martin McKeaveney <martinmckeaveney@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pdfjs-dist": "^2.0.489"
+  }
+}
