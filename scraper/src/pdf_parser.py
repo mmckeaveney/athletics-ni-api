@@ -21,6 +21,7 @@ def parse_pdf_to_df(pdf_file_name = 'XCandRRFixtures-Updated-131218.pdf'):
 
 def combine_relevant_rows(df):
     logging.info('Combining date rows..')
+    df['Date'] = df['Date'].str.replace('-','')
     for index, row in df.iterrows():
         val = df.at[index, 'Date']
         if str(val).isnumeric():
