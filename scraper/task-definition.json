@@ -1,0 +1,21 @@
+{
+  "family": "athletics-ni-scraper",
+  "containerDefinitions": [
+    {
+      "name": "athletics-ni-scraper",
+      "image": "",
+      "cpu": 20,
+      "memoryReservation": 128,
+      "portMappings": [
+        {
+          "containerPort": 4000,
+          "protocol": "tcp"
+        }
+      ],
+      "command": [
+        "poetry", "run src/index.py"
+      ],
+      "essential": true
+    }
+  ]
+}
