@@ -6,7 +6,6 @@
   "author": "Martin McKeaveney <martinmckeaveney@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "pdfjs-dist": "^2.0.489",
-    "tabula-js": "^1.0.1"
+    "aws-sdk": "^2.384.0"
   }
 }
