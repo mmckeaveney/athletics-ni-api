@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "athletics-ni-scraper",
-      "image": "",
+      "image": "mmckeaveney/athletics-ni-scraper",
       "cpu": 20,
       "memoryReservation": 128,
       "portMappings": [

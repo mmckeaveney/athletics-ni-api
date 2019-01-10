@@ -41,4 +41,5 @@ def combine_relevant_rows(df):
             df.at[index - 1, 'Contact'] = str(df.at[index - 1, 'Contact']) + ' ' + str(df.at[index, 'Contact'])
 
     df = df.dropna(subset=['Date'])
+    df.replace({'nan': ''}, regex=True)
     return df
