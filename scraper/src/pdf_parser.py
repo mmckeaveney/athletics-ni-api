@@ -2,6 +2,7 @@ import tabula
 import numpy as np
 import pandas as pd
 import logging
+import uuid
 
 URL = 'https://athleticsni.org/download/files/'
 PDF_TABLE_COORDS = [153.15, 5.1, 775.87, 589.48]
