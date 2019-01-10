@@ -62,3 +62,6 @@ typings/
 
 # tern files
 .tern-port
+
+# serverless
+.serverless
